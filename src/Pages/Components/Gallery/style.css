@@ -1,0 +1,92 @@
+.gallery{
+    width: 100%;
+}
+.gallery_block{
+    width: 55%;
+    padding: 20px 0;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery_header{
+    width: 100%;
+    margin: 5px 0;
+}
+.gallery_header h1{
+    font-size: 32px;
+    text-align: center;
+}
+.gallery_item{
+    width: 49.5%;
+    margin: 10px 0;
+    height: 300px;
+    text-align: center;
+}
+.gallery_item img{
+    background: #d3d3d3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.gallery_item p{
+    text-align: start;
+    font-size: 18px;
+}
+@media only screen and (max-width: 1600px){
+    .gallery_block{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .gallery_block{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .gallery_block{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .gallery_item{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .gallery_block{
+        width: 50%;
+    }
+    .gallery_item{
+        width: 100%;
+    }
+    .gallery_header h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .gallery_item img{
+        width: 100%;
+        margin: auto;
+    }
+    .gallery_item p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .gallery_block{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 411px){
+    .gallery_block{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .gallery_block{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 360px){
+    .gallery_block{
+        width: 90%;
+    }
+}

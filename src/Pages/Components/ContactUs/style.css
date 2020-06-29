@@ -1,0 +1,29 @@
+.contact_info{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #808080;
+    text-align:  center;
+    margin: auto;
+}
+.contact_info p{
+    padding: 20px 0;
+    font-size: 20px;
+    color: #fff;
+}
+.contact_button{
+    padding: 20px 0;
+}
+.contact_button a{
+    padding: 10px 50px;
+    border-radius: 27px;
+    background-color: #a01814;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffd700;
+}
+.contact_button:hover{
+    opacity: 0.95;
+}
+.contact_button:active{
+	opacity: 1;
+}

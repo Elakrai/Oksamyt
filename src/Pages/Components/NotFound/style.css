@@ -1,0 +1,26 @@
+.not_found_info{
+    width: 100%;
+    padding: 100px 0;
+    margin: auto;
+    text-align:  center;
+}
+.not_found_info h1{
+    text-align: center;
+}
+.not_found_button{
+    padding: 20px 0;
+}
+.not_found_button a{
+    padding: 10px 50px;
+    border-radius: 27px;
+    background-color: #a01814;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffd700;
+}
+.not_found_button a:hover{
+    opacity: 0.95;
+}
+.not_found_button:active{
+	opacity: 1;
+}

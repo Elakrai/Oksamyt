@@ -1,0 +1,16 @@
+.info{
+    background-color: #808080;
+    text-align: center;
+    padding: 100px 0;
+}
+.info h1{
+    font-size: 32px;
+    color: #ffffff;
+}
+.info p{
+    font-size: 18px;
+    color: #ffffff;
+	width: 40%;
+	margin: 0 auto;
+	line-height: 1.5;
+}
